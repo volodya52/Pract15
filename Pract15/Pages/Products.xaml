@@ -1,0 +1,101 @@
+﻿<Page x:Class="Pract15.Pages.Products"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Pract15.Pages"
+      mc:Ignorable="d" 
+      xmlns:validators="clr-namespace:Pract15.Validators"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      d:DesignHeight="450" d:DesignWidth="800"
+      
+      DataContext="{Binding RelativeSource={RelativeSource Self}}"
+      Title="Products">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition/>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="0">
+            <Label Style="{DynamicResource searchLabel}">Поиск</Label>
+            <TextBox Style="{DynamicResource SearchTextBox}" 
+                     materialDesign:HintAssist.Hint="Введите текст для поиска">
+                <TextBox.Text>
+                    <Binding Path="searchQuery" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <validators:EmptyText/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <Label Style="{DynamicResource filtrLabel}">Сортировка</Label>
+            <ComboBox Style="{DynamicResource sortComboBox}">
+                <ComboBox.Items>
+                    <ComboBoxItem Style="{DynamicResource ItemsComboBox}" Tag="Наименование">По названию</ComboBoxItem>
+                    <ComboBoxItem Style="{DynamicResource ItemsComboBox}" Tag="Цена">По цене</ComboBoxItem>
+                    <ComboBoxItem Style="{DynamicResource ItemsComboBox}" Tag="Количество">По количеству</ComboBoxItem>
+                </ComboBox.Items>
+            </ComboBox>
+            <Label Style="{DynamicResource filtrLabel}">Фильтр</Label>
+            <StackPanel>
+                <ComboBox Style="{DynamicResource sortComboBox}">
+                    <ComboBox.Items>
+                        <ComboBoxItem Style="{DynamicResource ItemsComboBox}" Tag="Категория">По категории</ComboBoxItem>
+                        <ComboBoxItem Style="{DynamicResource ItemsComboBox}" Tag="Цена">По бренду</ComboBoxItem>
+                        <ComboBoxItem Style="{DynamicResource ItemsComboBox}" Tag="Количество">По цене</ComboBoxItem>
+                    </ComboBox.Items>
+                </ComboBox>
+            </StackPanel>
+        </StackPanel>
+
+
+
+
+        <ListView Grid.Row="1" Grid.Column="1" ItemsSource="{Binding products}" HorizontalAlignment="Stretch" Name="ProductsList">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0">
+                            <TextBlock Text="{Binding Name}"/>
+                            <TextBlock Text="{Binding Rating}"/>
+                            <TextBlock>
+                                <Run Text="Категория"/>
+                                <Run Text="{Binding Category}"/>
+                            </TextBlock>
+                            <TextBlock>
+                                <Run Text="Описание"/>
+                                <Run Text="{Binding Description}"/>
+                            </TextBlock>
+                            <TextBlock Text="{Binding Tags}"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1">
+                            <TextBlock HorizontalAlignment="Right">
+                                <Run Text="Рост"/>
+                                <Run Text="{Binding Price}"/>
+                            </TextBlock>
+                            <TextBlock HorizontalAlignment="Right">
+                                <Run Text="Вес"/>
+                                <Run Text="{Binding Stock}"/>
+                            </TextBlock>
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+    </Grid>
+</Page>
