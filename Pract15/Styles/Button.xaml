@@ -13,7 +13,13 @@
         <Setter Property="Width" Value="200"/>
         <Setter Property="Height" Value="30"/>
         <Setter Property="Background" Value="#00c4b4"/>
-        
+    </Style>
+
+    <Style x:Key="DeleteButton" TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatButton}">
+        <Setter Property="Width" Value="200"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Background" Value="#00c4b4"/>
+        <Setter Property="Margin" Value="5,5"/>
     </Style>
     
 </ResourceDictionary>

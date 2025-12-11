@@ -1,4 +1,5 @@
-﻿using Pract15.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using Pract15.Models;
 using Pract15.Service;
 using System;
 using System.Collections.Generic;
@@ -25,7 +26,10 @@ namespace Pract15.Pages
     {
         public string searchQuery { get; set; } = null!;
         public Pract15DatabaseContext db=DbService.Instance.Context;
+        public DbService service { get; set; } = null;
         public ObservableCollection<Product> products { get; set; } = new();
+        public ObservableCollection<Category> categories { get; set; } = new( );
+        
         
         public Products(bool isManager)
         {
@@ -33,15 +37,32 @@ namespace Pract15.Pages
             if (isManager == true)
             {
                 MessageBox.Show("Вы зашли как менеджер");
+                DeleteButton.Visibility = Visibility.Visible;
+            }       
+        }
+
+        public void Page_Loaded (object sender, RoutedEventArgs e)
+        {
+            using var context = new Pract15DatabaseContext( );
+            var loadedProducts = context.Products
+                .Include(p => p.Category)
+                .Include(p => p.Brand)
+                .Include(p => p.Tags)
+                .ToList( );
+
+            products.Clear( );
+            foreach (var product in loadedProducts)
+            {
+                products.Add(product);
             }
         }
 
-        public void LoadList(object sender, EventArgs e)
+        private void DeleteButton_Click (object sender, RoutedEventArgs e)
         {
-            products.Clear();
-            foreach(var product in products)
+            if (MessageBox.Show("Вы действительно хотите удалить эту запись?", "Удалить", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
-                products.Add(product);
+                
+                MessageBox.Show("Запись удалена");
             }
         }
     }

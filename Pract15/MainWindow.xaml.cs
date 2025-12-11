@@ -18,19 +18,12 @@ namespace Pract15
     /// </summary>
     public partial class MainWindow : Window
     {
-        public ObservableCollection<Product> products { get; set; } = new();
+       
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        public void LoadList(object sender, EventArgs e)
-        {
-            products.Clear();
-            foreach (var product in products)
-            {
-               products.Add(product);
-            }
-        }
+       
     }
 }

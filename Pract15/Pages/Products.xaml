@@ -5,22 +5,29 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Pract15.Pages"
       mc:Ignorable="d" 
+     
       xmlns:validators="clr-namespace:Pract15.Validators"
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:conventer="clr-namespace:Pract15.Conventor"
       d:DesignHeight="450" d:DesignWidth="800"
-      
+      Loaded="Page_Loaded"
       DataContext="{Binding RelativeSource={RelativeSource Self}}"
       Title="Products">
 
     <Grid>
+        <Grid.Resources>
+            <conventer:Conventor x:Key="Conventor1"/>
+        </Grid.Resources>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="70"/>
             <RowDefinition/>
             <RowDefinition Height="30"/>
+            <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
 
@@ -42,8 +49,11 @@
             <ComboBox Style="{DynamicResource sortComboBox}">
                 <ComboBox.Items>
                     <ComboBoxItem Style="{DynamicResource ItemsComboBox}" Tag="Наименование">По названию</ComboBoxItem>
-                    <ComboBoxItem Style="{DynamicResource ItemsComboBox}" Tag="Цена">По цене</ComboBoxItem>
-                    <ComboBoxItem Style="{DynamicResource ItemsComboBox}" Tag="Количество">По количеству</ComboBoxItem>
+                    <ComboBoxItem Style="{DynamicResource ItemsComboBox}" Tag="ЦенаМинус">По цене (по убыванию)</ComboBoxItem>
+                    <ComboBoxItem Style="{DynamicResource ItemsComboBox}" Tag="ЦенаПлюс">По цене (по возрастанию)</ComboBoxItem>
+                    <ComboBoxItem Style="{DynamicResource ItemsComboBox}" Tag="КоличествоМинус">По количеству (по убыванию)</ComboBoxItem>
+                    <ComboBoxItem Style="{DynamicResource ItemsComboBox}" Tag="КоличествоПлюс">По количеству (по возрастанию)</ComboBoxItem>
+                    
                 </ComboBox.Items>
             </ComboBox>
             <Label Style="{DynamicResource filtrLabel}">Фильтр</Label>
@@ -58,10 +68,18 @@
             </StackPanel>
         </StackPanel>
 
+            
 
 
-
-        <ListView Grid.Row="1" Grid.Column="1" ItemsSource="{Binding products}" HorizontalAlignment="Stretch" Name="ProductsList">
+        <ListView Grid.Row="0"
+                  Grid.RowSpan="2"
+                  Grid.Column="1" 
+                  Grid.ColumnSpan="2"
+                  ItemsSource="{Binding products}" 
+                  SelectedItem="{Binding products}"
+                  HorizontalAlignment="Stretch" 
+                  Style="{DynamicResource ListViewItem}"
+                  Name="ProductsList">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <Grid>
@@ -71,24 +89,27 @@
                         </Grid.ColumnDefinitions>
                         <StackPanel Grid.Column="0">
                             <TextBlock Text="{Binding Name}"/>
-                            <TextBlock Text="{Binding Rating}"/>
+                            <TextBlock Text="★">
+                                <Run Text="{Binding Rating}"/>
+                            </TextBlock>
+                           
                             <TextBlock>
                                 <Run Text="Категория"/>
-                                <Run Text="{Binding Category}"/>
+                                <Run Text="{Binding Category.Name}"/>
                             </TextBlock>
                             <TextBlock>
                                 <Run Text="Описание"/>
                                 <Run Text="{Binding Description}"/>
                             </TextBlock>
-                            <TextBlock Text="{Binding Tags}"/>
+                            <TextBlock Text="{Binding Tags, Converter={StaticResource Conventor1}}"/>
                         </StackPanel>
                         <StackPanel Grid.Column="1">
                             <TextBlock HorizontalAlignment="Right">
-                                <Run Text="Рост"/>
+                                <Run Text="Стоимость"/>
                                 <Run Text="{Binding Price}"/>
                             </TextBlock>
                             <TextBlock HorizontalAlignment="Right">
-                                <Run Text="Вес"/>
+                                <Run Text="Количество"/>
                                 <Run Text="{Binding Stock}"/>
                             </TextBlock>
                         </StackPanel>
@@ -96,6 +117,13 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        
+        <WrapPanel Grid.Row="2" Grid.ColumnSpan="2">
+            <TextBlock Text="{Binding products.Count, StringFormat='{} Всего продуктов: {0}'}"/>
+            
+        </WrapPanel>
+        <StackPanel Grid.Row="4" Grid.ColumnSpan="3">
+            <Button Click="DeleteButton_Click" Visibility="Hidden" x:Name="DeleteButton" Style="{DynamicResource DeleteButton}" HorizontalAlignment="Left">Удалить</Button>
+        </StackPanel>
     </Grid>
 </Page>
+    
