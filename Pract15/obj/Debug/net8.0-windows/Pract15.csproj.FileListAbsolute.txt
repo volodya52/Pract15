@@ -319,3 +319,5 @@ C:\Users\st310-05\Documents\lll\Pract15\Pract15\obj\Debug\net8.0-windows\Pract15
 C:\Users\st310-05\Documents\lll\Pract15\Pract15\obj\Debug\net8.0-windows\Pract15.genruntimeconfig.cache
 C:\Users\st310-05\Documents\lll\Pract15\Pract15\obj\Debug\net8.0-windows\ref\Pract15.dll
 C:\Users\st310-05\Documents\lll\Pract15\Pract15\obj\Debug\net8.0-windows\Styles\ListView.baml
+C:\Users\st310-05\Documents\lll\Pract15\Pract15\obj\Debug\net8.0-windows\Pages\AddEditPage.g.cs
+C:\Users\st310-05\Documents\lll\Pract15\Pract15\obj\Debug\net8.0-windows\Pages\AddEditPage.baml

@@ -4,6 +4,7 @@ using Pract15.Service;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,6 +30,10 @@ namespace Pract15.Pages
         public DbService service { get; set; } = null;
         public ObservableCollection<Product> products { get; set; } = new();
         public ObservableCollection<Category> categories { get; set; } = new( );
+        public ICollectionView productsView { get; set; }
+
+        public string filterFrom { get; set; }
+        public string filterTo { get; set; }
         
         
         public Products(bool isManager)
@@ -38,7 +43,9 @@ namespace Pract15.Pages
             {
                 MessageBox.Show("Вы зашли как менеджер");
                 DeleteButton.Visibility = Visibility.Visible;
-            }       
+            }
+            productsView = CollectionViewSource.GetDefaultView(products);
+            productsView.Filter = FilterProducts;
         }
 
         public void Page_Loaded (object sender, RoutedEventArgs e)
@@ -64,6 +71,46 @@ namespace Pract15.Pages
                 
                 MessageBox.Show("Запись удалена");
             }
+        }
+
+        private void ComboBox_SelectionChanged (object sender, SelectionChangedEventArgs e)
+        {
+            productsView.SortDescriptions.Clear( );
+            var cb = (ComboBox) sender;
+            var selected = (ComboBoxItem) cb.SelectedItem;
+            switch (selected.Tag)
+            {
+                case "Наименование":
+                    productsView.SortDescriptions.Add(new SortDescription("Name", ListSortDirection.Ascending));
+                    break;
+                case "ЦенаМинус":
+                    productsView.SortDescriptions.Add(new SortDescription("Price", ListSortDirection.Descending));
+                    break;
+                case "ЦенаПлюс":
+                    productsView.SortDescriptions.Add(new SortDescription("Price", ListSortDirection.Ascending));
+                    break;
+                case "КоличествоМинус":
+                    productsView.SortDescriptions.Add(new SortDescription("Stock", ListSortDirection.Descending));
+                    break;
+                case "КоличествоПлюс":
+                    productsView.SortDescriptions.Add(new SortDescription("Stock", ListSortDirection.Ascending));
+                    break;
+            }
+        }
+
+        public bool FilterProducts(object obj)
+        {
+            if (obj is not Product)
+                return false;
+            var product = (Product) obj;
+            if (searchQuery != null && !product.Name.Contains(searchQuery, StringComparison.CurrentCultureIgnoreCase))
+                return false;
+            return true;
+        }
+
+        private void TextBox_TextChanged (object sender, TextChangedEventArgs e)
+        {
+            productsView.Refresh( );
         }
     }
 }

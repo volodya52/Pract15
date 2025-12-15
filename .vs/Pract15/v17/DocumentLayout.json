@@ -3,19 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\st310-05\\Documents\\lll\\Pract15\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|C:\\Users\\st310-05\\Documents\\lll\\Pract15\\pract15\\pages\\products.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\pages\\products.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\st310-05\\documents\\lll\\pract15\\pract15\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\st310-05\\documents\\lll\\pract15\\pract15\\pages\\products.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|C:\\Users\\st310-05\\Documents\\lll\\Pract15\\pract15\\pages\\products.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\pages\\products.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\st310-05\\documents\\lll\\pract15\\pract15\\conventor\\conventor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\st310-05\\documents\\lll\\pract15\\pract15\\pages\\products.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\pages\\products.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|C:\\Users\\st310-05\\Documents\\lll\\Pract15\\pract15\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\st310-05\\documents\\lll\\pract15\\pract15\\pages\\addeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\pages\\addeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\st310-05\\documents\\lll\\pract15\\pract15\\service\\dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\service\\dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|C:\\Users\\st310-05\\Documents\\lll\\Pract15\\pract15\\conventor\\conventor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\conventor\\conventor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\st310-05\\documents\\lll\\pract15\\pract15\\styles\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|C:\\Users\\st310-05\\Documents\\lll\\Pract15\\pract15\\styles\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\styles\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -23,7 +39,7 @@
       "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\pages\\signinpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\st310-05\\documents\\lll\\pract15\\pract15\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|C:\\Users\\st310-05\\Documents\\lll\\Pract15\\pract15\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,15 +47,11 @@
       "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\pages\\signinpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\st310-05\\documents\\lll\\pract15\\pract15\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\st310-05\\documents\\lll\\pract15\\pract15\\models\\pract15databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|C:\\Users\\st310-05\\Documents\\lll\\Pract15\\pract15\\models\\pract15databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\models\\pract15databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\st310-05\\documents\\lll\\pract15\\pract15\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|C:\\Users\\st310-05\\Documents\\lll\\Pract15\\pract15\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -58,11 +70,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\Pract15\\Pract15\\App.xaml",
+              "RelativeDocumentMoniker": "Pract15\\App.xaml",
+              "ToolTip": "C:\\Users\\st310-05\\Documents\\lll\\Pract15\\Pract15\\App.xaml",
+              "RelativeToolTip": "Pract15\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-15T10:40:24.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddEditPage.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\Pract15\\Pract15\\Pages\\AddEditPage.xaml",
+              "RelativeDocumentMoniker": "Pract15\\Pages\\AddEditPage.xaml",
+              "ToolTip": "C:\\Users\\st310-05\\Documents\\lll\\Pract15\\Pract15\\Pages\\AddEditPage.xaml",
+              "RelativeToolTip": "Pract15\\Pages\\AddEditPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-15T09:21:52.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbService.cs",
+              "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\Pract15\\Pract15\\Service\\DbService.cs",
+              "RelativeDocumentMoniker": "Pract15\\Service\\DbService.cs",
+              "ToolTip": "C:\\Users\\st310-05\\Documents\\lll\\Pract15\\Pract15\\Service\\DbService.cs",
+              "RelativeToolTip": "Pract15\\Service\\DbService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T09:18:51.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Button.xaml",
               "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\Pract15\\Pract15\\Styles\\Button.xaml",
               "RelativeDocumentMoniker": "Pract15\\Styles\\Button.xaml",
@@ -74,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Conventor.cs",
               "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\Pract15\\Pract15\\Conventor\\Conventor.cs",
               "RelativeDocumentMoniker": "Pract15\\Conventor\\Conventor.cs",
@@ -87,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Brand.cs",
               "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\Pract15\\Pract15\\Models\\Brand.cs",
               "RelativeDocumentMoniker": "Pract15\\Models\\Brand.cs",
@@ -100,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\Pract15\\Pract15\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Pract15\\Models\\Category.cs",
@@ -113,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\Pract15\\Pract15\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Pract15\\Models\\Product.cs",
@@ -126,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Pract15DatabaseContext.cs",
               "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\Pract15\\Pract15\\Models\\Pract15DatabaseContext.cs",
               "RelativeDocumentMoniker": "Pract15\\Models\\Pract15DatabaseContext.cs",
@@ -139,20 +196,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Products.xaml.cs",
               "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\Pract15\\Pract15\\Pages\\Products.xaml.cs",
               "RelativeDocumentMoniker": "Pract15\\Pages\\Products.xaml.cs",
               "ToolTip": "C:\\Users\\st310-05\\Documents\\lll\\Pract15\\Pract15\\Pages\\Products.xaml.cs",
               "RelativeToolTip": "Pract15\\Pages\\Products.xaml.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAcwD8AAAAQAAAA",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAcwCMAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T12:15:02.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "SignInPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\Pract15\\Pract15\\Pages\\SignInPage.xaml.cs",
               "RelativeDocumentMoniker": "Pract15\\Pages\\SignInPage.xaml.cs",
@@ -177,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "SignInPage.xaml",
               "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\Pract15\\Pract15\\Pages\\SignInPage.xaml",
               "RelativeDocumentMoniker": "Pract15\\Pages\\SignInPage.xaml",
@@ -189,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\Pract15\\Pract15\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Pract15\\MainWindow.xaml",
@@ -201,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\st310-05\\Documents\\lll\\Pract15\\Pract15\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Pract15\\MainWindow.xaml.cs",
@@ -220,11 +277,11 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             }
           ]
         }

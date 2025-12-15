@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\st310-05\Documents\lll\Pract15\Pract15\App.xaml
-8-1529158909
+9-2058546823
 
-19-572295441
+20782640999
 231928940728
-MainWindow.xaml;Pages\Products.xaml;Pages\SignInPage.xaml;Styles\Button.xaml;Styles\ComboBox.xaml;Styles\Labels.xaml;Styles\ListView.xaml;Styles\TextBox.xaml;
+MainWindow.xaml;Pages\AddEditPage.xaml;Pages\Products.xaml;Pages\SignInPage.xaml;Styles\Button.xaml;Styles\ComboBox.xaml;Styles\Labels.xaml;Styles\ListView.xaml;Styles\TextBox.xaml;
 
-False
+True
 

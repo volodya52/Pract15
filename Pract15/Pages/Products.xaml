@@ -25,7 +25,7 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="70"/>
-            <RowDefinition/>
+            <RowDefinition Height="AUTO"/>
             <RowDefinition Height="30"/>
             <RowDefinition/>
             <RowDefinition/>
@@ -34,7 +34,7 @@
         <StackPanel Grid.Row="0" Grid.Column="0">
             <Label Style="{DynamicResource searchLabel}">Поиск</Label>
             <TextBox Style="{DynamicResource SearchTextBox}" 
-                     materialDesign:HintAssist.Hint="Введите текст для поиска">
+                     materialDesign:HintAssist.Hint="Введите текст для поиска" TextChanged="TextBox_TextChanged">
                 <TextBox.Text>
                     <Binding Path="searchQuery" UpdateSourceTrigger="PropertyChanged">
                         <Binding.ValidationRules>
@@ -46,7 +46,7 @@
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.Column="0">
             <Label Style="{DynamicResource filtrLabel}">Сортировка</Label>
-            <ComboBox Style="{DynamicResource sortComboBox}">
+            <ComboBox Style="{DynamicResource sortComboBox}" SelectionChanged="ComboBox_SelectionChanged">
                 <ComboBox.Items>
                     <ComboBoxItem Style="{DynamicResource ItemsComboBox}" Tag="Наименование">По названию</ComboBoxItem>
                     <ComboBoxItem Style="{DynamicResource ItemsComboBox}" Tag="ЦенаМинус">По цене (по убыванию)</ComboBoxItem>
@@ -65,6 +65,13 @@
                         <ComboBoxItem Style="{DynamicResource ItemsComboBox}" Tag="Количество">По цене</ComboBoxItem>
                     </ComboBox.Items>
                 </ComboBox>
+                <TextBox Style="{DynamicResource SearchTextBox}">
+                    <TextBox.Text>
+                        <Binding Path="h">
+                            
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
             </StackPanel>
         </StackPanel>
 
