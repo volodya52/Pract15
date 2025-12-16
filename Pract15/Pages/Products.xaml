@@ -118,7 +118,10 @@
             </ListView.ItemTemplate>
         </ListView>
         <StackPanel Grid.Row="4" Grid.ColumnSpan="3">
-            <Button Click="DeleteButton_Click" Visibility="Hidden" x:Name="DeleteButton" Style="{DynamicResource DeleteButton}" HorizontalAlignment="Left">Удалить</Button>
+            <Button Click="DeleteButton_Click"  x:Name="DeleteButton" Style="{DynamicResource DeleteButton}">Удалить</Button>
+            <Button Click="GoTags" x:Name="TagsButton" Style="{DynamicResource TagsButton}">Тэги</Button>
+            <Button Click="GoBrands" x:Name="BrandsButton" Style="{DynamicResource BrandsButton}">Бренды</Button>
+            <Button Click="GoCategories" x:Name="CategoryButton" Style="{DynamicResource CategoryButton}">Категории</Button>
         </StackPanel>
     </Grid>
 </Page>

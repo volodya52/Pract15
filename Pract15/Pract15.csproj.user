@@ -5,10 +5,28 @@
     <Compile Update="Pages\AddEditPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Pages\BrandForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\BrandList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\CategoryList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\CategoryPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Pages\Products.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Pages\SignInPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\TagsList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\TagsPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

@@ -79,6 +79,7 @@
                             <Binding Path="CreatedAt" UpdateSourceTrigger="PropertyChanged">
                                 <Binding.ValidationRules>
                                     <validators:EmptyText/>
+                                    <validators:CheckDate/>
                                 </Binding.ValidationRules>
                             </Binding>
                         </DatePicker.SelectedDate>
@@ -86,31 +87,34 @@
                 </StackPanel>
                 <StackPanel>
                     <Label Style="{DynamicResource filtrLabel}">Бренд</Label>
-                    <ComboBox SelectedItem="{Binding Brand}" Style="{DynamicResource InputComboBox}" DisplayMemberPath="Brand">
-                        <ComboBoxItem Style="{DynamicResource ItemsComboBox}">
-                            
-                        </ComboBoxItem>
-                    </ComboBox>
+                    <ComboBox SelectedItem="{Binding Brand.Name}" 
+                              ItemsSource="{Binding Path=Brand}"
+                              Style="{DynamicResource InputComboBox}" 
+                              DisplayMemberPath="Brand"/>
+
+
                 </StackPanel>
                 <StackPanel>
                     <Label Style="{DynamicResource filtrLabel}">Категория</Label>
-                    <ComboBox SelectedItem="{Binding Category}" Style="{DynamicResource InputComboBox}" DisplayMemberPath="Category">
-                        <ComboBoxItem Style="{DynamicResource ItemsComboBox}">
-                            
-                        </ComboBoxItem>
-                    </ComboBox>
+                    <ComboBox SelectedItem="{Binding Category.Name}" 
+                              ItemsSource="{Binding Category.Name}"
+                              Style="{DynamicResource InputComboBox}"
+                              DisplayMemberPath="Category"/>
+
+
                 </StackPanel>
                 <StackPanel>
                     <Label Style="{DynamicResource filtrLabel}">Тэг</Label>
-                    <ComboBox Style="{DynamicResource InputComboBox}" SelectedItem="{Binding Tags}" DisplayMemberPath="Tags">
-                        <ComboBoxItem Style="{DynamicResource ItemsComboBox}">
-                            
-                        </ComboBoxItem>
+                    <ComboBox Style="{DynamicResource InputComboBox}" 
+                              ItemsSource="{Binding Tag.Name}"
+                              SelectedItem="{Binding Tag.Name}"
+                              >
+                        
                     </ComboBox>
                 </StackPanel>
                 <StackPanel>
-                    <Button Style="{DynamicResource ButtonSignIn}">Сохранить</Button>
-                    <Button Style="{DynamicResource ButtonSignIn}">Назад</Button>
+                    <Button Click="Back" Style="{DynamicResource ButtonSignIn}">Сохранить</Button>
+                    <Button Click="SaveProduct" Style="{DynamicResource ButtonSignIn}">Назад</Button>
                 </StackPanel>
             </StackPanel>
         </ScrollViewer>

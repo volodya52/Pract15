@@ -28,6 +28,8 @@ namespace Pract15.Pages
         public string searchQuery { get; set; } = null!;
         public Pract15DatabaseContext db=DbService.Instance.Context;
         public DbService service { get; set; } = null;
+        public Product? product1 { get; set; } = null;
+        public ProductsService pService { get; set; } = new();
         public ObservableCollection<Product> products { get; set; } = new();
         public ObservableCollection<Category> categories { get; set; } = new( );
         public ICollectionView productsView { get; set; }
@@ -43,6 +45,8 @@ namespace Pract15.Pages
             {
                 MessageBox.Show("Вы зашли как менеджер");
                 DeleteButton.Visibility = Visibility.Visible;
+                TagsButton.Visibility = Visibility.Visible;
+                BrandsButton.Visibility = Visibility.Visible;
             }
             productsView = CollectionViewSource.GetDefaultView(products);
             productsView.Filter = FilterProducts;
@@ -50,14 +54,14 @@ namespace Pract15.Pages
 
         public void Page_Loaded (object sender, RoutedEventArgs e)
         {
-            using var context = new Pract15DatabaseContext( );
+            using var context = new Pract15DatabaseContext();
             var loadedProducts = context.Products
                 .Include(p => p.Category)
                 .Include(p => p.Brand)
                 .Include(p => p.Tags)
-                .ToList( );
+                .ToList();
 
-            products.Clear( );
+            products.Clear();
             foreach (var product in loadedProducts)
             {
                 products.Add(product);
@@ -116,6 +120,21 @@ namespace Pract15.Pages
         private void ProductsList_MouseDoubleClick (object sender, MouseButtonEventArgs e)
         {
             NavigationService.Navigate(new AddEditPage( ));
+        }
+
+        private void GoTags(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new TagsList());
+        }
+
+        private void GoBrands(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new BrandList());
+        }
+
+        private void GoCategories(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new CategoryList());
         }
     }
 }

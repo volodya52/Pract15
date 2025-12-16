@@ -20,6 +20,19 @@
         <Setter Property="Height" Value="30"/>
         <Setter Property="Background" Value="#00c4b4"/>
         <Setter Property="Margin" Value="5,5"/>
+        <Setter Property="HorizontalAlignment" Value="Left"/>
     </Style>
-    
+
+    <Style x:Key="TagsButton" TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatButton}">
+        <Setter Property="Width" Value="200"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Background" Value="#00c4b4"/>
+        <Setter Property="Margin" Value="5,5"/>
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+    </Style>
+
+    <Style x:Key="BrandsButton" TargetType="Button" BasedOn="{StaticResource TagsButton}"/>
+
+    <Style x:Key="CategoryButton" TargetType="Button" BasedOn="{StaticResource TagsButton}"/>
+
 </ResourceDictionary>
