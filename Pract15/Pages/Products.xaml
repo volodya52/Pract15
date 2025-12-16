@@ -25,7 +25,7 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="70"/>
-            
+
             <RowDefinition Height="30"/>
             <RowDefinition/>
             <RowDefinition/>
@@ -53,7 +53,7 @@
                     <ComboBoxItem Style="{DynamicResource ItemsComboBox}" Tag="ЦенаПлюс">По цене (по возрастанию)</ComboBoxItem>
                     <ComboBoxItem Style="{DynamicResource ItemsComboBox}" Tag="КоличествоМинус">По количеству (по убыванию)</ComboBoxItem>
                     <ComboBoxItem Style="{DynamicResource ItemsComboBox}" Tag="КоличествоПлюс">По количеству (по возрастанию)</ComboBoxItem>
-                    
+
                 </ComboBox.Items>
             </ComboBox>
             <Label Style="{DynamicResource filtrLabel}">Фильтр</Label>
@@ -122,6 +122,8 @@
             <Button Click="GoTags" x:Name="TagsButton" Style="{DynamicResource TagsButton}">Тэги</Button>
             <Button Click="GoBrands" x:Name="BrandsButton" Style="{DynamicResource BrandsButton}">Бренды</Button>
             <Button Click="GoCategories" x:Name="CategoryButton" Style="{DynamicResource CategoryButton}">Категории</Button>
+            <Button x:Name="AddButton" Style="{DynamicResource AddButton}" Content="Добавить"/>
+
         </StackPanel>
     </Grid>
 </Page>

@@ -17,6 +17,14 @@
         <Setter Property="Width" Value="150"/>
         <Setter Property="Height" Value="30"/>
         <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="ItemContainerStyle">
+            <Setter.Value>
+                <Style TargetType="ComboBoxItem" BasedOn="{StaticResource MaterialDesignComboBoxItemStyle}">
+                    <Setter Property="Background" Value="#00c4b4"/>
+                    <Setter Property="BorderBrush" Value="#00c4b4"/>
+                </Style>
+            </Setter.Value>
+        </Setter>
     </Style>
     
     

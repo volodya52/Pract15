@@ -8,7 +8,27 @@
         <Setter Property="HorizontalAlignment" Value="Left"/>
         <Setter Property="Width" Value="150"/>
         <Setter Property="Height" Value="30"/>
-        
+        <Setter Property="CalendarStyle">
+            <Setter.Value>
+                <Style TargetType="Calendar" BasedOn="{StaticResource MaterialDesignDatePickerCalendarPortrait}">
+                    <Setter Property="Background" Value="#00c4b4"/>
+                    <Setter Property="Foreground" Value="Black"/>
+                    <Setter Property="CalendarDayButtonStyle">
+                        <Setter.Value>
+                            <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatButton}">
+                                <Setter Property="Background" Value="#00c4b4"/>
+                                <Setter Property="Foreground" Value="Black"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#00a395"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Setter.Value>
+        </Setter>
     </Style>
     
     

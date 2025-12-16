@@ -47,6 +47,8 @@ namespace Pract15.Pages
                 DeleteButton.Visibility = Visibility.Visible;
                 TagsButton.Visibility = Visibility.Visible;
                 BrandsButton.Visibility = Visibility.Visible;
+                AddButton.Visibility = Visibility.Visible;
+                CategoryButton.Visibility = Visibility.Visible;
             }
             productsView = CollectionViewSource.GetDefaultView(products);
             productsView.Filter = FilterProducts;

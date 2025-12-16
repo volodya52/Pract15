@@ -23,7 +23,7 @@ namespace Pract15.Pages
     public partial class AddEditPage :Page
     {
         public Product _products = new();
-        private ProductsService service = new( );
+        public ProductsService service = new( );
         public bool isEdit = false;
         public AddEditPage (Product? _editProduct=null)
         {

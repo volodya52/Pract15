@@ -5,9 +5,18 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Pract15.Pages"
       mc:Ignorable="d" 
+      xmlns:conventer="clr-namespace:Pract15.Conventor"
+      xmlns:service="clr-namespace:Pract15.Service"
       xmlns:validators="clr-namespace:Pract15.Validators"
       d:DesignHeight="450" d:DesignWidth="800"
       Title="AddEditPage">
+
+    <Page.Resources>
+        <service:TagService x:Key="tService"/>
+        <service:BrandService x:Key="bService"/>
+        <service:CategoryService x:Key="cService"/>
+        <conventer:DateOnlyConventer x:Key="DateConventer"/>
+    </Page.Resources>
 
     <Grid>
         <ScrollViewer HorizontalScrollBarVisibility="Auto" Style="{StaticResource MaterialDesignScrollViewer}">
@@ -76,7 +85,7 @@
                     <Label Style="{DynamicResource filtrLabel}">Дата</Label>
                     <DatePicker Style="{DynamicResource InputDate}">
                         <DatePicker.SelectedDate>
-                            <Binding Path="CreatedAt" UpdateSourceTrigger="PropertyChanged">
+                            <Binding Converter="{StaticResource DateConventer}" Path="CreatedAt" UpdateSourceTrigger="PropertyChanged">
                                 <Binding.ValidationRules>
                                     <validators:EmptyText/>
                                     <validators:CheckDate/>
@@ -88,28 +97,27 @@
                 <StackPanel>
                     <Label Style="{DynamicResource filtrLabel}">Бренд</Label>
                     <ComboBox SelectedItem="{Binding Brand.Name}" 
-                              ItemsSource="{Binding Path=Brand}"
+                              ItemsSource="{Binding Source={StaticResource bService}, Path=Brands}"
                               Style="{DynamicResource InputComboBox}" 
-                              DisplayMemberPath="Brand"/>
+                              DisplayMemberPath="Name"/>
 
 
                 </StackPanel>
                 <StackPanel>
                     <Label Style="{DynamicResource filtrLabel}">Категория</Label>
                     <ComboBox SelectedItem="{Binding Category.Name}" 
-                              ItemsSource="{Binding Category.Name}"
+                              ItemsSource="{Binding Source={StaticResource cService}, Path=Categories}"
                               Style="{DynamicResource InputComboBox}"
-                              DisplayMemberPath="Category"/>
+                              DisplayMemberPath="Name"/>
 
 
                 </StackPanel>
                 <StackPanel>
                     <Label Style="{DynamicResource filtrLabel}">Тэг</Label>
                     <ComboBox Style="{DynamicResource InputComboBox}" 
-                              ItemsSource="{Binding Tag.Name}"
-                              SelectedItem="{Binding Tag.Name}"
-                              >
-                        
+                              ItemsSource="{Binding Source={StaticResource tService}, Path=Tags}"
+                              DisplayMemberPath="Name"
+                              SelectedItem="{Binding Tag}">
                     </ComboBox>
                 </StackPanel>
                 <StackPanel>
