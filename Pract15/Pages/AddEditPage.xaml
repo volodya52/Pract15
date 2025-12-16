@@ -5,10 +5,114 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Pract15.Pages"
       mc:Ignorable="d" 
+      xmlns:validators="clr-namespace:Pract15.Validators"
       d:DesignHeight="450" d:DesignWidth="800"
       Title="AddEditPage">
 
     <Grid>
-        
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" Style="{StaticResource MaterialDesignScrollViewer}">
+            <StackPanel>
+                <StackPanel>
+                    <Label Style="{DynamicResource filtrLabel}">Название</Label>
+                    <TextBox Style="{DynamicResource InputTextBox}">
+                        <TextBox.Text>
+                            <Binding Path="Name" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <validators:EmptyText/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                </StackPanel>
+                <StackPanel>
+                    <Label Style="{DynamicResource filtrLabel}">Описание</Label>
+                    <TextBox Style="{DynamicResource InputTextBox}">
+                        <TextBox.Text>
+                            <Binding Path="Description" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <validators:EmptyText/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                </StackPanel>
+                <StackPanel>
+                    <Label Style="{DynamicResource filtrLabel}">Цена</Label>
+                    <TextBox Style="{DynamicResource InputTextBox}">
+                        <TextBox.Text>
+                            <Binding Path="Price" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <validators:EmptyText/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                </StackPanel>
+                <StackPanel>
+                    <Label Style="{DynamicResource filtrLabel}">Количество</Label>
+                    <TextBox Style="{DynamicResource InputTextBox}">
+                        <TextBox.Text>
+                            <Binding Path="Stock" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <validators:EmptyText/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                </StackPanel>
+                <StackPanel>
+                    <Label Style="{DynamicResource filtrLabel}">Рейтинг</Label>
+                    <TextBox Style="{DynamicResource InputTextBox}">
+                        <TextBox.Text>
+                            <Binding Path="Stock" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <validators:EmptyText/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                </StackPanel>
+                <StackPanel>
+                    <Label Style="{DynamicResource filtrLabel}">Дата</Label>
+                    <DatePicker Style="{DynamicResource InputDate}">
+                        <DatePicker.SelectedDate>
+                            <Binding Path="CreatedAt" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <validators:EmptyText/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </DatePicker.SelectedDate>
+                    </DatePicker>
+                </StackPanel>
+                <StackPanel>
+                    <Label Style="{DynamicResource filtrLabel}">Бренд</Label>
+                    <ComboBox SelectedItem="{Binding Brand}" Style="{DynamicResource InputComboBox}" DisplayMemberPath="Brand">
+                        <ComboBoxItem Style="{DynamicResource ItemsComboBox}">
+                            
+                        </ComboBoxItem>
+                    </ComboBox>
+                </StackPanel>
+                <StackPanel>
+                    <Label Style="{DynamicResource filtrLabel}">Категория</Label>
+                    <ComboBox SelectedItem="{Binding Category}" Style="{DynamicResource InputComboBox}" DisplayMemberPath="Category">
+                        <ComboBoxItem Style="{DynamicResource ItemsComboBox}">
+                            
+                        </ComboBoxItem>
+                    </ComboBox>
+                </StackPanel>
+                <StackPanel>
+                    <Label Style="{DynamicResource filtrLabel}">Тэг</Label>
+                    <ComboBox Style="{DynamicResource InputComboBox}" SelectedItem="{Binding Tags}" DisplayMemberPath="Tags">
+                        <ComboBoxItem Style="{DynamicResource ItemsComboBox}">
+                            
+                        </ComboBoxItem>
+                    </ComboBox>
+                </StackPanel>
+                <StackPanel>
+                    <Button Style="{DynamicResource ButtonSignIn}">Сохранить</Button>
+                    <Button Style="{DynamicResource ButtonSignIn}">Назад</Button>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>

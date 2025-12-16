@@ -36,7 +36,7 @@ namespace Pract15.Pages
         public string filterTo { get; set; }
         
         
-        public Products(bool isManager)
+        public Products(bool? isManager)
         {
             InitializeComponent();
             if (isManager == true)
@@ -111,6 +111,11 @@ namespace Pract15.Pages
         private void TextBox_TextChanged (object sender, TextChangedEventArgs e)
         {
             productsView.Refresh( );
+        }
+
+        private void ProductsList_MouseDoubleClick (object sender, MouseButtonEventArgs e)
+        {
+            NavigationService.Navigate(new AddEditPage( ));
         }
     }
 }

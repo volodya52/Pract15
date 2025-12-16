@@ -25,7 +25,7 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="70"/>
-            <RowDefinition Height="AUTO"/>
+            
             <RowDefinition Height="30"/>
             <RowDefinition/>
             <RowDefinition/>
@@ -44,7 +44,7 @@
                 </TextBox.Text>
             </TextBox>
         </StackPanel>
-        <StackPanel Grid.Row="1" Grid.Column="0">
+        <StackPanel Grid.Row="1" Grid.RowSpan="4" Grid.Column="0">
             <Label Style="{DynamicResource filtrLabel}">Сортировка</Label>
             <ComboBox Style="{DynamicResource sortComboBox}" SelectionChanged="ComboBox_SelectionChanged">
                 <ComboBox.Items>
@@ -65,26 +65,19 @@
                         <ComboBoxItem Style="{DynamicResource ItemsComboBox}" Tag="Количество">По цене</ComboBoxItem>
                     </ComboBox.Items>
                 </ComboBox>
-                <TextBox Style="{DynamicResource SearchTextBox}">
-                    <TextBox.Text>
-                        <Binding Path="h">
-                            
-                        </Binding>
-                    </TextBox.Text>
-                </TextBox>
             </StackPanel>
         </StackPanel>
 
-            
+
 
 
         <ListView Grid.Row="0"
-                  Grid.RowSpan="2"
+                  Grid.RowSpan="3"
                   Grid.Column="1" 
                   Grid.ColumnSpan="2"
                   ItemsSource="{Binding products}" 
                   SelectedItem="{Binding products}"
-                  HorizontalAlignment="Stretch" 
+                  MouseDoubleClick="ProductsList_MouseDoubleClick"          
                   Style="{DynamicResource ListViewItem}"
                   Name="ProductsList">
             <ListView.ItemTemplate>
@@ -99,7 +92,7 @@
                             <TextBlock Text="★">
                                 <Run Text="{Binding Rating}"/>
                             </TextBlock>
-                           
+
                             <TextBlock>
                                 <Run Text="Категория"/>
                                 <Run Text="{Binding Category.Name}"/>
@@ -124,10 +117,6 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <WrapPanel Grid.Row="2" Grid.ColumnSpan="2">
-            <TextBlock Text="{Binding products.Count, StringFormat='{} Всего продуктов: {0}'}"/>
-            
-        </WrapPanel>
         <StackPanel Grid.Row="4" Grid.ColumnSpan="3">
             <Button Click="DeleteButton_Click" Visibility="Hidden" x:Name="DeleteButton" Style="{DynamicResource DeleteButton}" HorizontalAlignment="Left">Удалить</Button>
         </StackPanel>
