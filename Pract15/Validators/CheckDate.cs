@@ -12,11 +12,18 @@ namespace Pract15.Validators
     {
         public override ValidationResult Validate(object value, CultureInfo cultureInfo)
         {
-            if(value is DateOnly date)
+            if (value == null)
             {
-                if(date > DateOnly.FromDateTime(DateTime.Today))
+                return new ValidationResult(false, "Дата не должна быть пустой");
+            }
+
+            if(value is DateTime date)
+            {
+                var dateTime=DateOnly.FromDateTime(date);
+                var today = DateOnly.FromDateTime(DateTime.Now);
+                if (dateTime > today)
                 {
-                    return new ValidationResult(false, "Дата не может быть будущей");
+                    return new ValidationResult(false, "Дата создания не может быть в будущем");
                 }
                 return ValidationResult.ValidResult;
             }
