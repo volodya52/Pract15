@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Pract15.Models;
 using Pract15.Service;
 using System;
@@ -49,9 +50,30 @@ namespace Pract15.Pages
                 BrandsButton.Visibility = Visibility.Visible;
                 AddButton.Visibility = Visibility.Visible;
                 CategoryButton.Visibility = Visibility.Visible;
+                
             }
+            
+            
             productsView = CollectionViewSource.GetDefaultView(products);
+            productsView.Filter = FilterProductsTextBox;
             productsView.Filter = FilterProducts;
+        }
+
+        public bool FilterProductsTextBox(object obj)
+        {
+            if (obj is not Product)
+                return false;
+            var product = (Product) obj;
+            if(searchQuery!=null && !product.Name.Contains(searchQuery, StringComparison.CurrentCultureIgnoreCase))
+            {
+                return false;
+            }
+            if (!filterFrom.IsNullOrEmpty( ) && Convert.ToInt32(filterFrom) > product.Price)
+                return false;
+            if (!filterTo.IsNullOrEmpty( ) && Convert.ToInt32(filterTo) > product.Price)
+                return false;
+            return true;
+
         }
 
         public void Page_Loaded (object sender, RoutedEventArgs e)
@@ -137,6 +159,16 @@ namespace Pract15.Pages
         private void GoCategories(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new CategoryList());
+        }
+
+        private void AddEditProduct(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new AddEditPage( ));
+        }
+
+        private void TextBox_TextChanged_1 (object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

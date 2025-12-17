@@ -45,7 +45,7 @@ namespace Pract15.Service
             _db.Remove<Tag>(tag);
             if(Commit()>0)
                 if(Tags.Contains(tag))
-                    Tags.Remove(tag);
+                    _db.Remove(tag);
         }
     }
 }

@@ -338,3 +338,15 @@ C:\Users\pluhi\OneDrive\Desktop\Гариев\Pract15\Pract15\obj\Debug\net8.0-wi
 C:\Users\pluhi\OneDrive\Desktop\Гариев\Pract15\Pract15\obj\Debug\net8.0-windows\Pages\CategoryPage.g.cs
 C:\Users\pluhi\OneDrive\Desktop\Гариев\Pract15\Pract15\obj\Debug\net8.0-windows\Pages\CategoryList.baml
 C:\Users\pluhi\OneDrive\Desktop\Гариев\Pract15\Pract15\obj\Debug\net8.0-windows\Pages\CategoryPage.baml
+C:\Users\st310-05\Documents\lll\Pract15\Pract15\obj\Debug\net8.0-windows\Pages\BrandForm.g.cs
+C:\Users\st310-05\Documents\lll\Pract15\Pract15\obj\Debug\net8.0-windows\Pages\BrandList.g.cs
+C:\Users\st310-05\Documents\lll\Pract15\Pract15\obj\Debug\net8.0-windows\Pages\CategoryList.g.cs
+C:\Users\st310-05\Documents\lll\Pract15\Pract15\obj\Debug\net8.0-windows\Pages\CategoryPage.g.cs
+C:\Users\st310-05\Documents\lll\Pract15\Pract15\obj\Debug\net8.0-windows\Pages\TagsList.g.cs
+C:\Users\st310-05\Documents\lll\Pract15\Pract15\obj\Debug\net8.0-windows\Pages\TagsPage.g.cs
+C:\Users\st310-05\Documents\lll\Pract15\Pract15\obj\Debug\net8.0-windows\Pages\BrandForm.baml
+C:\Users\st310-05\Documents\lll\Pract15\Pract15\obj\Debug\net8.0-windows\Pages\BrandList.baml
+C:\Users\st310-05\Documents\lll\Pract15\Pract15\obj\Debug\net8.0-windows\Pages\CategoryList.baml
+C:\Users\st310-05\Documents\lll\Pract15\Pract15\obj\Debug\net8.0-windows\Pages\CategoryPage.baml
+C:\Users\st310-05\Documents\lll\Pract15\Pract15\obj\Debug\net8.0-windows\Pages\TagsList.baml
+C:\Users\st310-05\Documents\lll\Pract15\Pract15\obj\Debug\net8.0-windows\Pages\TagsPage.baml
