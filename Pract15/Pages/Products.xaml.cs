@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -26,22 +27,113 @@ namespace Pract15.Pages
     /// </summary>
     public partial class Products : Page
     {
-        public string searchQuery { get; set; } = null!;
-        public Pract15DatabaseContext db=DbService.Instance.Context;
+        private string _searchQuery;
+        public string searchQuery
+        {
+            get => _searchQuery;
+            set
+            {
+                _searchQuery = value;
+                OnPropertyChanged();
+                productsView?.Refresh();
+            }
+        }
+
+        public Pract15DatabaseContext db = DbService.Instance.Context;
         public DbService service { get; set; } = null;
-        public Product? product1 { get; set; } = null;
+
+        private Product _product1;
+        public Product product1
+        {
+            get => _product1;
+            set
+            {
+                _product1 = value;
+                OnPropertyChanged();
+            }
+        }
+
         public ProductsService pService { get; set; } = new();
-        public ObservableCollection<Product> products { get; set; } = new();
-        public ObservableCollection<Category> categories { get; set; } = new( );
+
+        private ObservableCollection<Product> _products = new();
+        public ObservableCollection<Product> products
+        {
+            get => _products;
+            set
+            {
+                _products = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private Brand _selectedBrand;
+        public Brand SelectedBrand
+        {
+            get => _selectedBrand;
+            set
+            {
+                _selectedBrand = value;
+                OnPropertyChanged();
+
+                // Обновляем фильтр
+                if (productsView != null)
+                {
+                    productsView.Refresh();
+                }
+            }
+        }
+
+        private Category _selectedCategory;
+        public Category SelectedCategory
+        {
+            get => _selectedCategory;
+            set
+            {
+                _selectedCategory= value;
+                OnPropertyChanged();
+                if(productsView != null)
+                {
+                    productsView.Refresh();
+                }
+            }
+        }
+
+        public BrandService brandService { get; set; } = new();
         public ICollectionView productsView { get; set; }
 
-        public string filterFrom { get; set; }
-        public string filterTo { get; set; }
-        
-        
+        private string _filterFrom;
+        public string filterFrom
+        {
+            get => _filterFrom;
+            set
+            {
+                _filterFrom = value;
+                OnPropertyChanged();
+                productsView?.Refresh();
+            }
+        }
+
+        private string _filterTo;
+        public string filterTo
+        {
+            get => _filterTo;
+            set
+            {
+                _filterTo = value;
+                OnPropertyChanged();
+                productsView?.Refresh();
+            }
+        }
+
+
+
+
+
+
         public Products(bool? isManager)
         {
             InitializeComponent();
+
             if (isManager == true)
             {
                 MessageBox.Show("Вы зашли как менеджер");
@@ -52,29 +144,13 @@ namespace Pract15.Pages
                 CategoryButton.Visibility = Visibility.Visible;
                 
             }
-            
-            
+            DataContext = this;
+
             productsView = CollectionViewSource.GetDefaultView(products);
-            productsView.Filter = FilterProductsTextBox;
             productsView.Filter = FilterProducts;
         }
 
-        public bool FilterProductsTextBox(object obj)
-        {
-            if (obj is not Product)
-                return false;
-            var product = (Product) obj;
-            if(searchQuery!=null && !product.Name.Contains(searchQuery, StringComparison.CurrentCultureIgnoreCase))
-            {
-                return false;
-            }
-            if (!filterFrom.IsNullOrEmpty( ) && Convert.ToInt32(filterFrom) > product.Price)
-                return false;
-            if (!filterTo.IsNullOrEmpty( ) && Convert.ToInt32(filterTo) > product.Price)
-                return false;
-            return true;
-
-        }
+        
 
         public void Page_Loaded (object sender, RoutedEventArgs e)
         {
@@ -90,14 +166,30 @@ namespace Pract15.Pages
             {
                 products.Add(product);
             }
+            if (product1 == null)
+            {
+                product1 = new Product();
+            }
         }
 
         private void DeleteButton_Click (object sender, RoutedEventArgs e)
         {
             if (MessageBox.Show("Вы действительно хотите удалить эту запись?", "Удалить", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
-                
-                MessageBox.Show("Запись удалена");
+
+                if (ProductsList.SelectedItem is Product selectedProduct)
+                {
+                    
+                    using (var context = new Pract15DatabaseContext())
+                    {
+                        context.Products.Remove(selectedProduct);
+                        context.SaveChanges();
+
+                        
+                        products.Remove(selectedProduct);
+                        MessageBox.Show("Запись удалена");
+                    }
+                }
             }
         }
 
@@ -133,6 +225,15 @@ namespace Pract15.Pages
             var product = (Product) obj;
             if (searchQuery != null && !product.Name.Contains(searchQuery, StringComparison.CurrentCultureIgnoreCase))
                 return false;
+            if (!filterFrom.IsNullOrEmpty() && Convert.ToInt32(filterFrom) > product.Price)
+                return false;
+            if (!filterTo.IsNullOrEmpty() && Convert.ToInt32(filterTo) < product.Price)
+                return false;
+            if (SelectedBrand != null && SelectedBrand.Id != 0 &&
+            (product.Brand == null || product.Brand.Id != SelectedBrand.Id))
+                return false;
+            if (SelectedCategory != null && SelectedCategory.Id != 0 && (product.Category == null || product.Category.Id != SelectedCategory.Id))
+                return false;
             return true;
         }
 
@@ -166,9 +267,14 @@ namespace Pract15.Pages
             NavigationService.Navigate(new AddEditPage( ));
         }
 
-        private void TextBox_TextChanged_1 (object sender, TextChangedEventArgs e)
-        {
+        
 
+       
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

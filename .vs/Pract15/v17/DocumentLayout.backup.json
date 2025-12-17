@@ -3,8 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\pages\\products.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\pages\\products.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\pages\\products.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\pages\\products.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\pages\\addeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\pages\\addeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\models\\pract15databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\models\\pract15databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\pages\\categorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\pages\\categorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\conventor\\borderconventer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\conventor\\borderconventer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\validators\\checkdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\validators\\checkdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\service\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\service\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\styles\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\styles\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\pages\\addeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\pages\\addeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\service\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\service\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\conventor\\dateonlyconventer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,28 +67,12 @@
       "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\styles\\combobox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\pages\\addeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\pages\\addeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\pages\\categorylist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\pages\\categorylist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\pages\\categorylist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\pages\\categorylist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\pages\\products.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\pages\\products.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\pages\\products.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\pages\\products.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\pages\\categorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\pages\\categorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\pages\\categorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,18 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\pages\\brandlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\pages\\brandlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\service\\brandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\service\\brandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\service\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\service\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\styles\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\styles\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\pages\\brandform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -87,16 +103,8 @@
       "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\pages\\tagslist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\models\\pract15databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\models\\pract15databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\pages\\tagslist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\pages\\tagslist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\service\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|solutionrelative:pract15\\service\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A1475AD-E9EC-4443-BA1A-74823AE49F8B}|Pract15\\Pract15.csproj|c:\\users\\pluhi\\onedrive\\desktop\\\u0433\u0430\u0440\u0438\u0435\u0432\\pract15\\pract15\\pages\\tagspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -118,112 +126,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 8,
               "Title": "ProductsService.cs",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Service\\ProductsService.cs",
               "RelativeDocumentMoniker": "Pract15\\Service\\ProductsService.cs",
               "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Service\\ProductsService.cs",
               "RelativeToolTip": "Pract15\\Service\\ProductsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAoAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-16T07:29:25.924Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DateOnlyConventer.cs",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Conventor\\DateOnlyConventer.cs",
-              "RelativeDocumentMoniker": "Pract15\\Conventor\\DateOnlyConventer.cs",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Conventor\\DateOnlyConventer.cs",
-              "RelativeToolTip": "Pract15\\Conventor\\DateOnlyConventer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T18:54:20.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Conventor.cs",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Conventor\\Conventor.cs",
-              "RelativeDocumentMoniker": "Pract15\\Conventor\\Conventor.cs",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Conventor\\Conventor.cs",
-              "RelativeToolTip": "Pract15\\Conventor\\Conventor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T18:51:52.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ComboBox.xaml",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Styles\\ComboBox.xaml",
-              "RelativeDocumentMoniker": "Pract15\\Styles\\ComboBox.xaml",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Styles\\ComboBox.xaml",
-              "RelativeToolTip": "Pract15\\Styles\\ComboBox.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-16T18:27:03.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddEditPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\AddEditPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pract15\\Pages\\AddEditPage.xaml.cs",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\AddEditPage.xaml.cs",
-              "RelativeToolTip": "Pract15\\Pages\\AddEditPage.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T18:16:04.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddEditPage.xaml",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\AddEditPage.xaml",
-              "RelativeDocumentMoniker": "Pract15\\Pages\\AddEditPage.xaml",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\AddEditPage.xaml*",
-              "RelativeToolTip": "Pract15\\Pages\\AddEditPage.xaml*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-16T18:15:31.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoryList.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\CategoryList.xaml.cs",
-              "RelativeDocumentMoniker": "Pract15\\Pages\\CategoryList.xaml.cs",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\CategoryList.xaml.cs",
-              "RelativeToolTip": "Pract15\\Pages\\CategoryList.xaml.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAASwCcAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T17:55:46.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CategoryPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\CategoryPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pract15\\Pages\\CategoryPage.xaml.cs",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\CategoryPage.xaml.cs",
-              "RelativeToolTip": "Pract15\\Pages\\CategoryPage.xaml.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAMwDIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T17:54:30.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "CategoryPage.xaml",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\CategoryPage.xaml",
               "RelativeDocumentMoniker": "Pract15\\Pages\\CategoryPage.xaml",
@@ -234,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "CategoryList.xaml",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\CategoryList.xaml",
               "RelativeDocumentMoniker": "Pract15\\Pages\\CategoryList.xaml",
@@ -245,31 +165,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BrandService.cs",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Service\\BrandService.cs",
-              "RelativeDocumentMoniker": "Pract15\\Service\\BrandService.cs",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Service\\BrandService.cs",
-              "RelativeToolTip": "Pract15\\Service\\BrandService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T13:08:51.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
               "Title": "TagService.cs",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Service\\TagService.cs",
               "RelativeDocumentMoniker": "Pract15\\Service\\TagService.cs",
               "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Service\\TagService.cs",
               "RelativeToolTip": "Pract15\\Service\\TagService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBIAAAAVAAAAAAAAAA==",
+              "ViewState": "AQIAABEAAAAAAAAAAAAYwC8AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-16T13:12:52.502Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 9,
               "Title": "Button.xaml",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Styles\\Button.xaml",
               "RelativeDocumentMoniker": "Pract15\\Styles\\Button.xaml",
@@ -281,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "BrandForm.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\BrandForm.xaml.cs",
               "RelativeDocumentMoniker": "Pract15\\Pages\\BrandForm.xaml.cs",
@@ -293,76 +201,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "BrandForm.xaml",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\BrandForm.xaml",
-              "RelativeDocumentMoniker": "Pract15\\Pages\\BrandForm.xaml",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\BrandForm.xaml",
-              "RelativeToolTip": "Pract15\\Pages\\BrandForm.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-16T17:34:59.66Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BrandList.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\BrandList.xaml.cs",
-              "RelativeDocumentMoniker": "Pract15\\Pages\\BrandList.xaml.cs",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\BrandList.xaml.cs",
-              "RelativeToolTip": "Pract15\\Pages\\BrandList.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Products.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\Products.xaml.cs",
+              "RelativeDocumentMoniker": "Pract15\\Pages\\Products.xaml.cs",
+              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\Products.xaml.cs",
+              "RelativeToolTip": "Pract15\\Pages\\Products.xaml.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAswA0BAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T17:28:48.47Z"
+              "WhenOpened": "2025-12-09T12:15:02.777Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "BrandList.xaml",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\BrandList.xaml",
-              "RelativeDocumentMoniker": "Pract15\\Pages\\BrandList.xaml",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\BrandList.xaml",
-              "RelativeToolTip": "Pract15\\Pages\\BrandList.xaml",
+              "DocumentIndex": 1,
+              "Title": "Products.xaml",
+              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\Products.xaml",
+              "RelativeDocumentMoniker": "Pract15\\Pages\\Products.xaml",
+              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\Products.xaml",
+              "RelativeToolTip": "Pract15\\Pages\\Products.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-16T17:28:21.562Z"
+              "WhenOpened": "2025-12-09T12:09:23.171Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Pract15DatabaseContext.cs",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Models\\Pract15DatabaseContext.cs",
-              "RelativeDocumentMoniker": "Pract15\\Models\\Pract15DatabaseContext.cs",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Models\\Pract15DatabaseContext.cs",
-              "RelativeToolTip": "Pract15\\Models\\Pract15DatabaseContext.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "CheckDate.cs",
+              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Validators\\CheckDate.cs",
+              "RelativeDocumentMoniker": "Pract15\\Validators\\CheckDate.cs",
+              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Validators\\CheckDate.cs",
+              "RelativeToolTip": "Pract15\\Validators\\CheckDate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T17:24:01.08Z"
+              "WhenOpened": "2025-12-17T08:05:08.42Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "TagsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\TagsPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pract15\\Pages\\TagsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\TagsPage.xaml.cs",
-              "RelativeToolTip": "Pract15\\Pages\\TagsPage.xaml.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAqwC0AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T13:26:10.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "TagsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\TagsPage.xaml",
-              "RelativeDocumentMoniker": "Pract15\\Pages\\TagsPage.xaml",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\TagsPage.xaml",
-              "RelativeToolTip": "Pract15\\Pages\\TagsPage.xaml",
+              "DocumentIndex": 2,
+              "Title": "AddEditPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\AddEditPage.xaml",
+              "RelativeDocumentMoniker": "Pract15\\Pages\\AddEditPage.xaml",
+              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\AddEditPage.xaml",
+              "RelativeToolTip": "Pract15\\Pages\\AddEditPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-16T13:25:31.868Z"
+              "WhenOpened": "2025-12-16T18:15:31.465Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 5,
+              "Title": "BorderConventer.cs",
+              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Conventor\\BorderConventer.cs",
+              "RelativeDocumentMoniker": "Pract15\\Conventor\\BorderConventer.cs",
+              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Conventor\\BorderConventer.cs",
+              "RelativeToolTip": "Pract15\\Conventor\\BorderConventer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T08:02:32.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\App.xaml",
+              "RelativeDocumentMoniker": "Pract15\\App.xaml",
+              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\App.xaml",
+              "RelativeToolTip": "Pract15\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-17T08:14:21.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "TagsList.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\TagsList.xaml.cs",
               "RelativeDocumentMoniker": "Pract15\\Pages\\TagsList.xaml.cs",
@@ -374,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "TagsList.xaml",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\TagsList.xaml",
               "RelativeDocumentMoniker": "Pract15\\Pages\\TagsList.xaml",
@@ -385,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Pract15\\Models\\Category.cs",
@@ -397,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Service\\CategoryService.cs",
               "RelativeDocumentMoniker": "Pract15\\Service\\CategoryService.cs",
@@ -409,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "DatePicker.xaml",
               "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Styles\\DatePicker.xaml",
               "RelativeDocumentMoniker": "Pract15\\Styles\\DatePicker.xaml",
@@ -421,26 +333,145 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Products.xaml",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\Products.xaml",
-              "RelativeDocumentMoniker": "Pract15\\Pages\\Products.xaml",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\Products.xaml",
-              "RelativeToolTip": "Pract15\\Pages\\Products.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-09T12:09:23.171Z"
+              "DocumentIndex": 3,
+              "Title": "Pract15DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Models\\Pract15DatabaseContext.cs",
+              "RelativeDocumentMoniker": "Pract15\\Models\\Pract15DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Models\\Pract15DatabaseContext.cs",
+              "RelativeToolTip": "Pract15\\Models\\Pract15DatabaseContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBsAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T17:24:01.08Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Products.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\Products.xaml.cs",
-              "RelativeDocumentMoniker": "Pract15\\Pages\\Products.xaml.cs",
-              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\Products.xaml.cs",
-              "RelativeToolTip": "Pract15\\Pages\\Products.xaml.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAADwv4gAAAA7AAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "AddEditPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\AddEditPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pract15\\Pages\\AddEditPage.xaml.cs",
+              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\AddEditPage.xaml.cs",
+              "RelativeToolTip": "Pract15\\Pages\\AddEditPage.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T12:15:02.777Z"
+              "WhenOpened": "2025-12-16T18:16:04.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CategoryPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\CategoryPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pract15\\Pages\\CategoryPage.xaml.cs",
+              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\CategoryPage.xaml.cs",
+              "RelativeToolTip": "Pract15\\Pages\\CategoryPage.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAMwDIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T17:54:30.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoryList.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\CategoryList.xaml.cs",
+              "RelativeDocumentMoniker": "Pract15\\Pages\\CategoryList.xaml.cs",
+              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\CategoryList.xaml.cs",
+              "RelativeToolTip": "Pract15\\Pages\\CategoryList.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAASwCcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T17:55:46.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ComboBox.xaml",
+              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Styles\\ComboBox.xaml",
+              "RelativeDocumentMoniker": "Pract15\\Styles\\ComboBox.xaml",
+              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Styles\\ComboBox.xaml",
+              "RelativeToolTip": "Pract15\\Styles\\ComboBox.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-16T18:27:03.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Conventor.cs",
+              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Conventor\\Conventor.cs",
+              "RelativeDocumentMoniker": "Pract15\\Conventor\\Conventor.cs",
+              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Conventor\\Conventor.cs",
+              "RelativeToolTip": "Pract15\\Conventor\\Conventor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T18:51:52.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DateOnlyConventer.cs",
+              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Conventor\\DateOnlyConventer.cs",
+              "RelativeDocumentMoniker": "Pract15\\Conventor\\DateOnlyConventer.cs",
+              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Conventor\\DateOnlyConventer.cs",
+              "RelativeToolTip": "Pract15\\Conventor\\DateOnlyConventer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T18:54:20.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BrandForm.xaml",
+              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\BrandForm.xaml",
+              "RelativeDocumentMoniker": "Pract15\\Pages\\BrandForm.xaml",
+              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\BrandForm.xaml",
+              "RelativeToolTip": "Pract15\\Pages\\BrandForm.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-16T17:34:59.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BrandList.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\BrandList.xaml.cs",
+              "RelativeDocumentMoniker": "Pract15\\Pages\\BrandList.xaml.cs",
+              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\BrandList.xaml.cs",
+              "RelativeToolTip": "Pract15\\Pages\\BrandList.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T17:28:48.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BrandList.xaml",
+              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\BrandList.xaml",
+              "RelativeDocumentMoniker": "Pract15\\Pages\\BrandList.xaml",
+              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\BrandList.xaml",
+              "RelativeToolTip": "Pract15\\Pages\\BrandList.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-16T17:28:21.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TagsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\TagsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pract15\\Pages\\TagsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\TagsPage.xaml.cs",
+              "RelativeToolTip": "Pract15\\Pages\\TagsPage.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwC0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T13:26:10.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TagsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\TagsPage.xaml",
+              "RelativeDocumentMoniker": "Pract15\\Pages\\TagsPage.xaml",
+              "ToolTip": "C:\\Users\\pluhi\\OneDrive\\Desktop\\\u0413\u0430\u0440\u0438\u0435\u0432\\Pract15\\Pract15\\Pages\\TagsPage.xaml",
+              "RelativeToolTip": "Pract15\\Pages\\TagsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-16T13:25:31.868Z"
             }
           ]
         }
