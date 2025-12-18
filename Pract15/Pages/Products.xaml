@@ -97,7 +97,7 @@
                   Grid.Column="1" 
                   Grid.ColumnSpan="2"
                   ItemsSource="{Binding products}" 
-                  SelectedItem="{Binding products}"
+                  SelectedItem="{Binding product}"
                   MouseDoubleClick="ProductsList_MouseDoubleClick"          
                   Style="{DynamicResource ListViewItem}"
                   Name="ProductsList">

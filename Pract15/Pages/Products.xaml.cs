@@ -42,13 +42,13 @@ namespace Pract15.Pages
         public Pract15DatabaseContext db = DbService.Instance.Context;
         public DbService service { get; set; } = null;
 
-        private Product _product1;
-        public Product product1
+        private Product _product;
+        public Product product
         {
-            get => _product1;
+            get => _product;
             set
             {
-                _product1 = value;
+                _product = value;
                 OnPropertyChanged();
             }
         }
@@ -166,9 +166,9 @@ namespace Pract15.Pages
             {
                 products.Add(product);
             }
-            if (product1 == null)
+            if (product == null)
             {
-                product1 = new Product();
+                product = new Product();
             }
         }
 
@@ -244,7 +244,7 @@ namespace Pract15.Pages
 
         private void ProductsList_MouseDoubleClick (object sender, MouseButtonEventArgs e)
         {
-            NavigationService.Navigate(new AddEditPage( ));
+            NavigationService.Navigate(new AddEditPage(product));
         }
 
         private void GoTags(object sender, RoutedEventArgs e)
@@ -264,7 +264,7 @@ namespace Pract15.Pages
 
         private void AddEditProduct(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new AddEditPage( ));
+            NavigationService.Navigate(new AddEditPage(product));
         }
 
         
