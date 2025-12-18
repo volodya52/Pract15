@@ -138,7 +138,12 @@ namespace Pract15.Pages
                 Stock = _product.Stock,
                 Rating = _product.Rating,
                 CreatedAt = _product.CreatedAt,
-                
+                BrandId = _product.BrandId,
+                CategoryId = _product.CategoryId,
+                Brand = _product.Brand,
+                Tags = _product.Tags,
+                Category = _product.Category
+
             };
             DataContext = this;
             Loaded += Page_Loaded;
@@ -207,15 +212,31 @@ namespace Pract15.Pages
                     .Where(t => t.IsSelected)
                     .Select(t => context.Tags.Find(t.Id))
                     .Where(t => t != null)
-                    .ToList( );
-
+                    .ToList();
+                var newProduct = new Product
+                {
+                    Name = MainProduct.Name,
+                    Description = MainProduct.Description,
+                    Price = MainProduct.Price,
+                    Stock = MainProduct.Stock,
+                    Rating = MainProduct.Rating,
+                    CreatedAt = MainProduct.CreatedAt,
+                    BrandId = MainProduct.BrandId,
+                    CategoryId = MainProduct.CategoryId,
+                    Tags = selectedTags
+                };
                 MainProduct.Tags = selectedTags;
-                context.Products.Add(MainProduct);
+                context.Products.Add(newProduct);
+
+                
+                
             }
             else
             {
                 var existingProduct = context.Products
                     .Include(p => p.Tags)
+                    .Include(p => p.Brand)
+                    .Include(p => p.Category) 
                     .FirstOrDefault(p => p.Id == MainProduct.Id);
 
                 if (existingProduct != null)
@@ -233,9 +254,9 @@ namespace Pract15.Pages
                         .Where(t => t.IsSelected)
                         .Select(t => context.Tags.Find(t.Id))
                         .Where(t => t != null)
-                        .ToList( );
+                        .ToList();
 
-                    existingProduct.Tags.Clear( );
+                    existingProduct.Tags.Clear();
                     foreach (var tag in selectedTags)
                     {
                         existingProduct.Tags.Add(tag);

@@ -103,19 +103,22 @@
             </StackPanel>
             <StackPanel>
                 <Label Style="{DynamicResource filtrLabel}">Бренд</Label>
-                <ComboBox SelectedValuePath="Id" 
-                  ItemsSource="{Binding Brands}"
-                  Style="{DynamicResource InputComboBox}" 
-                  DisplayMemberPath="Name"/>
+                <ComboBox 
+                    SelectedValuePath="Id" 
+                    ItemsSource="{Binding Brands}"
+                    Style="{DynamicResource InputComboBox}" 
+                    SelectedValue="{Binding MainProduct.BrandId}"
+                    DisplayMemberPath="Name"/>
 
 
             </StackPanel>
             <StackPanel>
                 <Label Style="{DynamicResource filtrLabel}">Категория</Label>
                 <ComboBox SelectedValuePath="Id" 
-                  ItemsSource="{Binding Categories}"
-                  Style="{DynamicResource InputComboBox}" 
-                  DisplayMemberPath="Name"/>
+                            ItemsSource="{Binding Categories}"
+                            Style="{DynamicResource InputComboBox}" 
+                          SelectedValue="{Binding MainProduct.CategoryId}" 
+                            DisplayMemberPath="Name"/>
 
 
             </StackPanel>

@@ -141,12 +141,12 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <StackPanel HorizontalAlignment="Center" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="1">
-            <Button Click="DeleteButton_Click"  x:Name="DeleteButton" Style="{DynamicResource DeleteButton}">Удалить</Button>
-            <Button Click="GoTags" x:Name="TagsButton" Style="{DynamicResource TagsButton}">Тэги</Button>
-            <Button Click="GoBrands" x:Name="BrandsButton" Style="{DynamicResource BrandsButton}">Бренды</Button>
-            <Button Click="GoCategories" x:Name="CategoryButton" Style="{DynamicResource CategoryButton}">Категории</Button>
-            <Button Click="AddEditProduct" x:Name="AddButton" Style="{DynamicResource AddButton}" Content="Добавить"/>
+        <StackPanel   Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2">
+            <Button Visibility="Hidden" Click="DeleteButton_Click"  x:Name="DeleteButton" Style="{DynamicResource DeleteButton}">Удалить</Button>
+            <Button Visibility="Hidden" Click="GoTags" x:Name="TagsButton" Style="{DynamicResource TagsButton}">Тэги</Button>
+            <Button Visibility="Hidden" Click="GoBrands" x:Name="BrandsButton" Style="{DynamicResource BrandsButton}">Бренды</Button>
+            <Button Visibility="Hidden" Click="GoCategories" x:Name="CategoryButton" Style="{DynamicResource CategoryButton}">Категории</Button>
+            <Button Visibility="Hidden" Click="AddEditProduct" x:Name="AddButton" Style="{DynamicResource AddButton}" Content="Добавить"/>
 
         </StackPanel>
     </Grid>
